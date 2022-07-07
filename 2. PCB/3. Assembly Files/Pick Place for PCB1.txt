@@ -1,0 +1,43 @@
+Altium Designer Pick and Place Locations
+C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\PCB_Project\Project Outputs for PCB_Project\Pick Place for PCB1.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       05/01/22
+Time:       19:16
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+Designator Comment                   Layer       Footprint               Center-X(mm) Center-Y(mm) Rotation Description                 
+C8         2.2uF                     TopLayer    CAPC1005X56X25ML10T15   47.6896      49.5515      270      'LMK105BJ225MV-F            
+C5         100nF                     TopLayer    CAPC1005X56X25ML10T15   48.8370      48.4784      270      'CL05B104KA5NNNC            
+TP2        TESTPAD                   TopLayer    TESTPAD                 51.1810      40.8892      270      ""                          
+TP1        TESTPAD                   TopLayer    TESTPAD                 49.8968      40.8892      270      ""                          
+H1         'BG300-02-A-L-A           BottomLayer BG300-02-A-L-A          44.3261      46.3581      180      ""                          
+H2         'BG300-02-A-L-A           BottomLayer BG300-02-A-L-A          44.3261      43.6911      0        ""                          
+C11        100nF                     TopLayer    CAPC1005X56X25ML10T15   41.8668      49.2100      0        'CL05B104KA5NNNC            
+C10        10nF                      TopLayer    CAPC1005X56X25ML10T15   41.8773      50.1757      0        '04025C103MAT2A             
+C6         100nF                     TopLayer    CAPC1005X56X25ML10T15   47.1344      43.2734      90       'CL05B104KA5NNNC            
+C9         100pF                     TopLayer    CAPC1005X56X25ML10T15   41.8589      51.1707      0        'CC0402KRX7R9BB101          
+R5         150                       TopLayer    RESC1005X40X25ML05T10   51.7025      48.4634      90       'RC0402FR-07150RL           
+R4         10k                       TopLayer    RESC1005X40X25ML5T10    37.3681      40.6400      180      'RC0402JR-0710KL            
+R2         "150 (0.33W)"             TopLayer    FP-CRCW0603-HPe3-MFG    35.2836      40.4710      270      'CRCW0603150RJNEAHP         
+R1         10k                       TopLayer    RESC1005X40X25ML5T10    52.6576      48.4634      270      'RC0402JR-0710KL            
+C7         100nF                     TopLayer    CAPC1005X56X25ML10T15   50.7473      48.4784      270      'CL05B104KA5NNNC            
+C4         10nF                      TopLayer    CAPC1005X56X25ML10T15   49.7739      48.4927      270      '04025C103MAT2A             
+D5         'LTST-C190KFKT            TopLayer    RESC1608X04N            44.4190      35.9720      180      ""                          
+D4         'LTST-C190KFKT            TopLayer    RESC1608X04N            44.4190      37.2060      180      ""                          
+D3         'LTST-C190KFKT            TopLayer    RESC1608X04N            44.4190      38.4400      180      ""                          
+D2         'LTST-C190KFKT            TopLayer    RESC1608X04N            44.4190      39.6740      180      ""                          
+D1         'LTST-C190KFKT            TopLayer    RESC1608X04N            44.4190      40.9080      180      ""                          
+H4         H5P1.27                   TopLayer    H5P1.27P                53.6960      45.4580      270      ""                          
+C3         100nF                     TopLayer    CAPC1005X56X25ML10T15   48.0607      53.9525      180      'CL05B104KA5NNNC            
+C2         10nF                      TopLayer    CAPC1005X56X25ML10T15   48.0607      52.9909      180      '04025C103MAT2A             
+C1         47uF                      TopLayer    TAYO-C1210-2_L          41.3020      53.4229      0        'CL32A476KOJNNNE            
+SW         "PTS815 SJK 250 SMTR LFS" TopLayer    PTS815_SJK_250_SMTR_LFS 41.1164      38.6394      270      ""                          
+U3         'AP2210K-3.3TRG1          TopLayer    SOT95P282X145-5N        45.4930      51.8160      270      ""                          
+R3         N6L50T0S-503A3030R-E      TopLayer    N6L50T0S-503A3030R-E    40.5130      45.0850      180      ""                          
+U1         PIC16F18323-I/JQ          TopLayer    PIC16F18323-I/JQ        50.2670      44.9500      0        ""                          
+U2         DRV8837DSGR               TopLayer    FP-DSG0008A-MFG         45.8740      48.2600      0        "IC MOTOR DRIVER PAR 8WSON" 

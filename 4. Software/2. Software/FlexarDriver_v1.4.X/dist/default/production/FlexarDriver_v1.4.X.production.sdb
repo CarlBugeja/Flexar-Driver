@@ -1,0 +1,561 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16LF18323 ]
+[d frameptr 6 ]
+"85 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\mcc_generated_files/adc.c
+[e E4894 . `uc
+channel_ANA4 4
+channel_AVSS 60
+channel_Temp 61
+channel_DAC1 62
+channel_FVR 63
+]
+"103 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\flexar_driver.c
+[e E4953 . `uc
+channel_ANA4 4
+channel_AVSS 60
+channel_Temp 61
+channel_DAC1 62
+channel_FVR 63
+]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"18 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\flexar_driver.c
+[v _loop_handler loop_handler `(v  1 e 1 0 ]
+"44
+[v _driver_handler driver_handler `(v  1 e 1 0 ]
+"85
+[v _flash_handler flash_handler `(v  1 e 1 0 ]
+"102
+[v _trimmer_handler trimmer_handler `(v  1 e 1 0 ]
+"182
+[v _driver_run driver_run `(v  1 e 1 0 ]
+"247
+[v _driver_init driver_init `(v  1 e 1 0 ]
+"323
+[v _buzzer_pwm_config buzzer_pwm_config `(v  1 e 1 0 ]
+"338
+[v _drive_pwm_config drive_pwm_config `(v  1 e 1 0 ]
+"13 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"67 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+"116
+[v _ADC_GetConversion ADC_GetConversion `(us  1 e 2 0 ]
+"54 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"50 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"62
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"76
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"82
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"58 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\mcc_generated_files/memory.c
+[v _FLASH_ReadWord FLASH_ReadWord `(us  1 e 2 0 ]
+"94
+[v _FLASH_WriteBlock FLASH_WriteBlock `(c  1 e 1 0 ]
+"149
+[v _FLASH_EraseBlock FLASH_EraseBlock `(v  1 e 1 0 ]
+"180
+[v _DATAEE_WriteByte DATAEE_WriteByte `(v  1 e 1 0 ]
+"202
+[v _DATAEE_ReadByte DATAEE_ReadByte `(uc  1 e 1 0 ]
+"55 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"58 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\mcc_generated_files/pwm5.c
+[v _PWM5_Initialize PWM5_Initialize `(v  1 e 1 0 ]
+"72
+[v _PWM5_LoadDutyValue PWM5_LoadDutyValue `(v  1 e 1 0 ]
+"58 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\mcc_generated_files/pwm6.c
+[v _PWM6_Initialize PWM6_Initialize `(v  1 e 1 0 ]
+"72
+[v _PWM6_LoadDutyValue PWM6_LoadDutyValue `(v  1 e 1 0 ]
+"61 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"121
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+"134
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+"138
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"62 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+[s S380 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"365 C:/Program Files/Microchip_/MPLABX/v5.45/packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18323.h
+[u S385 . 1 `S380 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES385  1 e 1 @11 ]
+[s S506 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+]
+"400
+[u S513 . 1 `S506 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES513  1 e 1 @12 ]
+[s S96 . 1 `uc 1 INTF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"498
+[u S101 . 1 `S96 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES101  1 e 1 @16 ]
+[s S296 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 BCL1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"535
+[u S305 . 1 `S296 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES305  1 e 1 @17 ]
+"691
+[v _TMR0L TMR0L `VEuc  1 e 1 @21 ]
+"829
+[v _TMR0H TMR0H `VEuc  1 e 1 @22 ]
+"1083
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @23 ]
+[s S133 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+`uc 1 T016BIT 1 0 :1:4 
+`uc 1 T0OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T0EN 1 0 :1:7 
+]
+"1103
+[s S139 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
+`uc 1 T0OUTPS1 1 0 :1:1 
+`uc 1 T0OUTPS2 1 0 :1:2 
+`uc 1 T0OUTPS3 1 0 :1:3 
+]
+[u S144 . 1 `S133 1 . 1 0 `S139 1 . 1 0 ]
+[v _T0CON0bits T0CON0bits `VES144  1 e 1 @23 ]
+"1148
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @24 ]
+"1414
+[v _TMR2 TMR2 `VEuc  1 e 1 @29 ]
+"1434
+[v _PR2 PR2 `VEuc  1 e 1 @30 ]
+"1454
+[v _T2CON T2CON `VEuc  1 e 1 @31 ]
+[s S318 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+"1475
+[s S322 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+[u S330 . 1 `S318 1 . 1 0 `S322 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES330  1 e 1 @31 ]
+"1525
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+[s S610 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+]
+"1540
+[u S617 . 1 `S610 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES617  1 e 1 @140 ]
+"1570
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S593 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+]
+"1585
+[u S600 . 1 `S593 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES600  1 e 1 @142 ]
+[s S109 . 1 `uc 1 INTE 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"1633
+[u S114 . 1 `S109 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES114  1 e 1 @144 ]
+"1826
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"1892
+[v _ADRESL ADRESL `VEuc  1 e 1 @155 ]
+"1912
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
+"1932
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @157 ]
+[s S224 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :6:2 
+]
+"1958
+[s S228 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADGO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+`uc 1 CHS5 1 0 :1:7 
+]
+[s S237 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[u S240 . 1 `S224 1 . 1 0 `S228 1 . 1 0 `S237 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES240  1 e 1 @157 ]
+"2018
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @158 ]
+"2090
+[v _ADACT ADACT `VEuc  1 e 1 @159 ]
+"2136
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"2181
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+"2724
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2769
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"3664
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"3714
+[v _WPUC WPUC `VEuc  1 e 1 @526 ]
+"5162
+[v _ODCONA ODCONA `VEuc  1 e 1 @652 ]
+"5207
+[v _ODCONC ODCONC `VEuc  1 e 1 @654 ]
+"5561
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @780 ]
+"5606
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @782 ]
+"5656
+[v _INLVLA INLVLA `VEuc  1 e 1 @908 ]
+"5706
+[v _INLVLC INLVLC `VEuc  1 e 1 @910 ]
+"6530
+[v _PWM5DCL PWM5DCL `VEuc  1 e 1 @1559 ]
+"6566
+[v _PWM5DCH PWM5DCH `VEuc  1 e 1 @1560 ]
+"6636
+[v _PWM5CON PWM5CON `VEuc  1 e 1 @1561 ]
+[s S554 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 PWM5POL 1 0 :1:4 
+`uc 1 PWM5OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 PWM5EN 1 0 :1:7 
+]
+"6655
+[u S560 . 1 `S554 1 . 1 0 ]
+[v _PWM5CONbits PWM5CONbits `VES560  1 e 1 @1561 ]
+"6702
+[v _PWM6DCL PWM6DCL `VEuc  1 e 1 @1562 ]
+"6738
+[v _PWM6DCH PWM6DCH `VEuc  1 e 1 @1563 ]
+"6808
+[v _PWM6CON PWM6CON `VEuc  1 e 1 @1564 ]
+[s S539 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 PWM6POL 1 0 :1:4 
+`uc 1 PWM6OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 PWM6EN 1 0 :1:7 
+]
+"6827
+[u S545 . 1 `S539 1 . 1 0 ]
+[v _PWM6CONbits PWM6CONbits `VES545  1 e 1 @1564 ]
+"7621
+[v _NVMADRL NVMADRL `VEuc  1 e 1 @2193 ]
+"8023
+[v _NVMADRH NVMADRH `VEuc  1 e 1 @2194 ]
+"8405
+[v _NVMDATL NVMDATL `VEuc  1 e 1 @2195 ]
+"8807
+[v _NVMDATH NVMDATH `VEuc  1 e 1 @2196 ]
+[s S395 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 LWLO 1 0 :1:5 
+`uc 1 NVMREGS 1 0 :1:6 
+]
+"9166
+[s S403 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CFGS 1 0 :1:6 
+]
+[u S406 . 1 `S395 1 . 1 0 `S403 1 . 1 0 ]
+[v _NVMCON1bits NVMCON1bits `VES406  1 e 1 @2197 ]
+"9326
+[v _NVMCON2 NVMCON2 `VEuc  1 e 1 @2198 ]
+"9485
+[v _PMD0 PMD0 `VEuc  1 e 1 @2321 ]
+"9530
+[v _PMD1 PMD1 `VEuc  1 e 1 @2322 ]
+"9569
+[v _PMD2 PMD2 `VEuc  1 e 1 @2323 ]
+"9609
+[v _PMD3 PMD3 `VEuc  1 e 1 @2324 ]
+"9654
+[v _PMD4 PMD4 `VEuc  1 e 1 @2325 ]
+"9682
+[v _PMD5 PMD5 `VEuc  1 e 1 @2326 ]
+"9779
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2329 ]
+"9919
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2331 ]
+"10016
+[v _OSCEN OSCEN `VEuc  1 e 1 @2333 ]
+"10062
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2334 ]
+"10120
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2335 ]
+"11278
+[v _RA2PPS RA2PPS `VEuc  1 e 1 @3730 ]
+"11434
+[v _RC0PPS RC0PPS `VEuc  1 e 1 @3744 ]
+"4 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\flexar_driver.c
+[v _signal_toggle signal_toggle `a  1 e 1 0 ]
+"5
+[v _index_tmr index_tmr `uc  1 e 1 0 ]
+[v _adc_avgcounter adc_avgcounter `uc  1 e 1 0 ]
+[v _button_tmr button_tmr `uc  1 e 1 0 ]
+[v _eepdriver_mode eepdriver_mode `uc  1 e 1 0 ]
+[v _driver_mode driver_mode `uc  1 e 1 0 ]
+[v _LED_mode LED_mode `uc  1 e 1 0 ]
+"6
+[v _index_lastval index_lastval `us  1 e 2 0 ]
+[v _period_val period_val `us  1 e 2 0 ]
+[v _period_halfval period_halfval `us  1 e 2 0 ]
+[v _period_tmr period_tmr `us  1 e 2 0 ]
+"7
+[v _adc_avgval adc_avgval `[8]us  1 e 16 0 ]
+"8
+[v _eeptimer eeptimer `ul  1 e 4 0 ]
+"10
+[v _period_buffer period_buffer `DC[64]us  1 e 128 0 ]
+"52 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\mcc_generated_files/interrupt_manager.c
+[v _timer_flag timer_flag `a  1 e 1 0 ]
+"59 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\mcc_generated_files/tmr0.c
+[v _TMR0_InterruptHandler TMR0_InterruptHandler `*.37(v  1 e 2 0 ]
+"13 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"34
+} 0
+"18 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\flexar_driver.c
+[v _loop_handler loop_handler `(v  1 e 1 0 ]
+{
+"42
+} 0
+"102
+[v _trimmer_handler trimmer_handler `(v  1 e 1 0 ]
+{
+"133
+[v trimmer_handler@array_val array_val `us  1 a 2 7 ]
+"123
+[v trimmer_handler@i i `uc  1 a 1 4 ]
+"104
+[v trimmer_handler@index_val index_val `us  1 a 2 5 ]
+"105
+[v trimmer_handler@adc_avgsum adc_avgsum `us  1 a 2 2 ]
+"103
+[v trimmer_handler@adc_newval adc_newval `us  1 a 2 0 ]
+"180
+} 0
+"85
+[v _flash_handler flash_handler `(v  1 e 1 0 ]
+{
+"100
+} 0
+"180 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\mcc_generated_files/memory.c
+[v _DATAEE_WriteByte DATAEE_WriteByte `(v  1 e 1 0 ]
+{
+"182
+[v DATAEE_WriteByte@GIEBitValue GIEBitValue `uc  1 a 1 3 ]
+"180
+[v DATAEE_WriteByte@bAdd bAdd `us  1 p 2 0 ]
+[v DATAEE_WriteByte@bData bData `uc  1 p 1 2 ]
+"200
+} 0
+"182 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\flexar_driver.c
+[v _driver_run driver_run `(v  1 e 1 0 ]
+{
+"183
+[v driver_run@duty_val duty_val `ul  1 a 4 17 ]
+"245
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 8 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 0 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 4 ]
+"129
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 8 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 12 ]
+"5
+[v ___lldiv@divisor divisor `ul  1 p 4 0 ]
+[v ___lldiv@dividend dividend `ul  1 p 4 4 ]
+"30
+} 0
+"247 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\flexar_driver.c
+[v _driver_init driver_init `(v  1 e 1 0 ]
+{
+"258
+[v driver_init@i i `uc  1 a 1 11 ]
+"257
+[v driver_init@adc_initval adc_initval `us  1 a 2 9 ]
+"321
+} 0
+"44
+[v _driver_handler driver_handler `(v  1 e 1 0 ]
+{
+[v driver_handler@mode_select mode_select `uc  1 a 1 wreg ]
+[v driver_handler@mode_select mode_select `uc  1 a 1 wreg ]
+[v driver_handler@mode_select mode_select `uc  1 a 1 6 ]
+"83
+} 0
+"338
+[v _drive_pwm_config drive_pwm_config `(v  1 e 1 0 ]
+{
+"357
+} 0
+"323
+[v _buzzer_pwm_config buzzer_pwm_config `(v  1 e 1 0 ]
+{
+"336
+} 0
+"72 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\mcc_generated_files/pwm6.c
+[v _PWM6_LoadDutyValue PWM6_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v PWM6_LoadDutyValue@dutyValue dutyValue `us  1 p 2 0 ]
+"79
+} 0
+"72 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\mcc_generated_files/pwm5.c
+[v _PWM5_LoadDutyValue PWM5_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v PWM5_LoadDutyValue@dutyValue dutyValue `us  1 p 2 0 ]
+"79
+} 0
+"202 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\mcc_generated_files/memory.c
+[v _DATAEE_ReadByte DATAEE_ReadByte `(uc  1 e 1 0 ]
+{
+[v DATAEE_ReadByte@bAdd bAdd `us  1 p 2 0 ]
+"212
+} 0
+"116 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\mcc_generated_files/adc.c
+[v _ADC_GetConversion ADC_GetConversion `(us  1 e 2 0 ]
+{
+[v ADC_GetConversion@channel channel `E4894  1 a 1 wreg ]
+[v ADC_GetConversion@channel channel `E4894  1 a 1 wreg ]
+"119
+[v ADC_GetConversion@channel channel `E4894  1 a 1 3 ]
+"137
+} 0
+"50 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"60
+} 0
+"76
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"80
+} 0
+"62 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"77
+} 0
+"61 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"85
+} 0
+"134
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"136
+} 0
+"58 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\mcc_generated_files/pwm6.c
+[v _PWM6_Initialize PWM6_Initialize `(v  1 e 1 0 ]
+{
+"70
+} 0
+"58 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\mcc_generated_files/pwm5.c
+[v _PWM5_Initialize PWM5_Initialize `(v  1 e 1 0 ]
+{
+"70
+} 0
+"82 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"96
+} 0
+"55 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"108
+} 0
+"62 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"74
+} 0
+"67 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+{
+"87
+} 0
+"54 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"66
+} 0
+"121 C:\Users\carlb\Dropbox\My Projects\Flexar Driver\V1.4\SW\FlexarDriver_v1.4.X\mcc_generated_files/tmr0.c
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+{
+"131
+} 0
+"138
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"141
+} 0
