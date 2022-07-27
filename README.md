@@ -29,10 +29,10 @@
 
 <!----------------------------------------------------------------------------->
 
-[Datasheet]: Documentation/Datasheet.pdf
+[Datasheet]: Documentation/Flexar%20Driver.pdf
 [License]: LICENSE 'This repository is licensed under the CreativeCommons Share-Alike 4.0 license.'
 [Casing]: Source/Case
-[BOM]: Documentation/Assembly/BOM.xlsx
+[BOM]: raw/main/Documentation/Assembly/BOM.xlsx
 
 
 <!----------------------------------[ Badges ]--------------------------------->
